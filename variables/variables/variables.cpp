@@ -13,10 +13,4 @@ void main()
 	cout << Text + "lol" + OtherText << endl;
 	cout << "max int:" << INT_MAX << endl;
 	cout << "size of Text:" << sizeof(Text) << endl;
-
-
-
-
-
-
 }
