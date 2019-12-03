@@ -9,9 +9,14 @@ int helloWorld()
 	return lol;
 }
 
+void lol(int arbidol) {
+	cout << arbidol << "- that's kek";
+}
+
 void main()
 {
 	int kek;
 	kek = helloWorld();
 	cout << "kek" << kek << endl;
+	lol(kek);
 }
