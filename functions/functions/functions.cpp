@@ -1,15 +1,17 @@
 #include <iostream>
 using namespace std;
 
-void helloWorld()
+int helloWorld()
 {
 	cout << "Hello World!\n";
-
+	int lol;
+	cin >> lol;
+	return lol;
 }
 
-int main()
+void main()
 {
-	helloWorld();
-	cout << "kek" << endl;
-	helloWorld();
+	int kek;
+	kek = helloWorld();
+	cout << "kek" << kek << endl;
 }
